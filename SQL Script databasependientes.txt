@@ -1,0 +1,12 @@
+
+CREATE DATABASE databasependientes;
+
+
+
+CREATE TABLE databasependientes.pendientes (
+
+    id int auto_increment NOT NULL,
+    descripcion varchar(255),
+
+    PRIMARY KEY (id)
+);
